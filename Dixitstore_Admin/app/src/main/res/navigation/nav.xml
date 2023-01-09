@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/addProductFragment2"
+        android:name="com.example.dixitstore_admin.fragments.AddProductFragment"
+        android:label="fragment_add_product"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/categoryFragment2"
+        android:name="com.example.dixitstore_admin.fragments.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.dixitstore_admin.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_categoryFragment2"
+            app:destination="@id/categoryFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_productListFragment2"
+            app:destination="@id/productListFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_slideShareFragment"
+            app:destination="@id/slideShareFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productListFragment2"
+        android:name="com.example.dixitstore_admin.fragments.ProductListFragment"
+        android:label="fragment_product_list"
+        tools:layout="@layout/fragment_product_list" >
+        <action
+            android:id="@+id/action_productListFragment2_to_addProductFragment2"
+            app:destination="@id/addProductFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/slideShareFragment"
+        android:name="com.example.dixitstore_admin.fragments.SlideShareFragment"
+        android:label="fragment_slide_share"
+        tools:layout="@layout/fragment_slide_share" />
+</navigation>

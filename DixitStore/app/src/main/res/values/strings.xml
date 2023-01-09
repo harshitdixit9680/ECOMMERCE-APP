@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dixit&amp;Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Cart Fragment </string>
+    <string name="dashboard">My DashBoard</string>
+    <string name="store">Store</string>
+</resources>

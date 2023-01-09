@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "97087528603",
+    "project_id": "dixitstore-1ed5e",
+    "storage_bucket": "dixitstore-1ed5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97087528603:android:3fc2beb3d21fed5f3bb03e",
+        "android_client_info": {
+          "package_name": "com.example.dixitstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97087528603-i1r15bk06l6ju0vnos38eh7a426ah2bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVWkqkHX7ko5Rf9GS5H80yWIaNmeJrjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97087528603-i1r15bk06l6ju0vnos38eh7a426ah2bb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97087528603:android:1ad8ef6f2a84d73c3bb03e",
+        "android_client_info": {
+          "package_name": "com.example.dixitstore_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97087528603-i1r15bk06l6ju0vnos38eh7a426ah2bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVWkqkHX7ko5Rf9GS5H80yWIaNmeJrjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97087528603-i1r15bk06l6ju0vnos38eh7a426ah2bb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
